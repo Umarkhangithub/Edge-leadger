@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+   
+    <title>Contat Page  |  Edge Ledger</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+
+<body>
+    <header class="header2">
+
+        <nav class="navbar" >
+            <div class="navbar-brand">
+                <h1><span class="nav-heading">Edge</span> Ledger</h1>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item "><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+      
+        <div class="contact">
+    
+            <div class="hero1">
+                <form action="" id="submit">
+                    <input type="text" id="Fullname" placeholder="Enter Fullname *" required>
+                    <input type="email" name="email" id="email" placeholder="Enter email *" required>
+                    <input type="number" name="mnumber" id="mnumber" placeholder="Enter Mobile number *" required>
+                    <textarea name="message" id="message" placeholder="message" cols="20" rows="5"></textarea> <br>
+                    <input type="submit"id="btn">
+                </form>
+                
+            </div>
+        </div>
+    </header>
+
+
+    <footer class="foot">
+        <div class="footer-icons">
+            <img src="./img/facebook.png" alt="" class="footimg-icon">
+            <img src="./img/instagram.png" alt="" class="footimg-icon">
+            <img src="./img/twitter.png" alt="" class="footimg-icon">
+            <img src="./img/linkedin.png" alt="" class="footimg-icon">
+        </div>
+        <div class="footer-content">
+            <h1>Copyright &copy; 2022 Edge Ledger</h1>
+            <p>Designed by Umar khan</p>
+        </div>
+    </footer>
+
+
+    <script src="../jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+          
+
+            $("#submit").submit(function(){
+                var message = $("#Fullname").val();
+                alert(`Hello ${message}...!`);
+                
+            })
+            
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* blog section header  */
+
+.header1 {
+  background: url(../blog/backgroun.jpg) no-repeat center center/cover;
+  height: 40vh;
+  margin-bottom: 10px;
+}
+
+
+/* blog hero setion  */
+
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.hero1 h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.blog-content{
+    color: #000;
+    background-color: #ddd;
+}
+.blog-content p{
+   font-size: 14px;
+}
+
+.bc{
+    background-color: #000;
+    color: #ddd;
+}
+.blog .blog-content h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+.blog-content .btn{
+    background-color: #000;
+    color: #fff;
+}
+.bc .btn {
+    background-color: #ddd;
+    color: #000;
+}
+
+
+/* contact section header  */
+.header2 {
+  background: url(../blog/backgroun.jpg) no-repeat center center/cover;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  max-width: 1000px;
+
+  
+
+}
+.contact .hero1{
+  width: 80%;
+  height: 500px;
+  background: rgba(2, 2, 11, 0.7);
+  /* border: #ddd 1px dotted; */
+  border-radius: 10px;
+  border: #000 2px solid;
+  box-shadow:  inset 1px 1px 30px rgb(135, 247, 176);
+  margin: 1rem;
+}
+.hero1 input{
+  background-color: transparent;
+  border: 1px solid #ddd;
+  color: #fff;
+  margin: 1rem;
+  padding: 1em;
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+
+#message{
+  width: 90%;
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #fff;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+#btn{
+  background-color:rgba(255, 255, 255);
+  color: rgb(0, 6, 2);
+  transition: all 0.3s;
+  width: 90%;
+  height: 3rem;
+  font-size: 14px;
+  border-radius: 10px;
+  
+
+  
+
+}
+
+#btn:hover {
+  background-color:rgba(255, 255, 255,0.4);
+  color: rgb(135, 247, 176);
+  width: 90%;
+  height: 3rem;
+  box-shadow:  inset 1px 1px 30px rgb(44, 42, 42);
+  
+}
+
+@media (max-width: 1500px) {
+
+}
+
+
+/* about us page 
+ */
+ #about {
+  background-color: #f7f7f7;
+  padding: 2rem;
+  margin: auto;
+  max-width: 1000px;
+}
+
+#about h2 {
+  color: #333;
+  font-size: 40px;
+
+}
+
+#about p {
+  color: #000000;
+  margin: 1rem 0rem;
+}
+
+
+.card1{
+  display: flex;
+  background-color: #ccc;
+  padding: 1rem;
+
+
+}
+.card1 img{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
